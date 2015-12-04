@@ -1,0 +1,647 @@
+﻿/*** 
+ * GENERIC HTML FORM ELEMENTS
+ * Rewrites of standard HTML elements
+ **************************************************************************/
+fieldset {
+	border-width: 0;
+	clear: both;
+}
+	fieldset legend {
+		display: none;
+	}
+
+input,
+select {
+	vertical-align: middle;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+textarea {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+input[type=text],
+input[type=password],
+input.UploaderInputFile,
+textarea {
+	padding: 3px;
+}
+
+input[type=text],
+input.file,
+input[type=password],
+input.UploaderInputFile,
+input.submit,
+textarea,
+select {
+	margin: 0 10px 0 0;
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+	border: 1px solid #d5d5d5;
+}
+
+input[type=text],
+input[type=password],
+input.UploaderInputFile,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 1.2em;
+}
+	input[type=text]:focus,
+	input[type=password]:focus,
+	select:focus,
+	textarea:focus {
+	}
+
+input.radio,
+input.checkbox,
+input.submit {
+	cursor: pointer;
+}
+
+input.submit {
+	padding: 0.4em 0.6em;
+	font-size: 0.9em;
+	cursor: pointer;
+	overflow: visible;
+}
+
+select > option {
+	padding: 0.25em 5px 0 3px;
+}
+
+span.EditingFormErrorLabel {
+	background-color: #701f12;
+	color: #fff;
+	padding: 2px 5px 4px;
+	float:right;
+	width:14em;
+}
+
+fieldset.form {
+	padding-top: 3.2em;
+	width: 460px;
+	color: #000;
+	margin: 0 0 0 8px;
+}
+	fieldset.form h3 {
+		margin-top: 0;
+	}
+	fieldset.form ol {
+		list-style: none;
+		float: left;
+		width: 460px;
+	}
+		fieldset.form ol li {
+			margin: 0 0 1.6em;
+			float: left;
+			clear: left;
+			width: 460px;
+		}
+			fieldset.form ol li label {
+				float: left;
+				width: 140px;
+				text-align: right;
+				padding: 0 1.5em 0 0;
+			}
+			fieldset.form ol li.required label {
+				font-weight: bold;
+				font-size:14px;
+			}
+			fieldset.form ol li.required-text-area label {
+				font-weight: bold;
+				height: 100px;
+			}
+			fieldset.form ol li.required-text-area span.EditingFormErrorLabel {
+				float:left;
+				margin-bottom: 10px;
+				width: 346px;
+			}
+			fieldset.form ol li.required-date-select label {
+				font-weight: bold;
+				height: 50px;
+			}
+			fieldset.form ol li.required-date-select span.EditingFormErrorLabel {
+				float:left;
+				margin-top: 10px;
+				width: 250px;
+			}
+			fieldset.form ol li input {
+				width: 230px;
+			}
+			fieldset.form ol li input.UploaderInputFile {
+			                width:210px;
+			}
+			fieldset.form ol li input.CalendarIcon {
+				width: auto;
+				margin:.75em 1em 0 0;
+			}
+			fieldset.form ol li a.CalendarAction {		            
+				margin:.5em 1em 0 0;	
+				float:left;
+			}
+			fieldset.form ol li input.small {
+				width: 76px;
+			}
+			fieldset.form ol li select {
+				width: 154px;
+			}
+			fieldset.form ol li textarea {
+				width: 348px;
+				height:125px;
+			}
+			fieldset.form ol li input,
+			fieldset.form ol li select,
+			fieldset.form ol li textarea {
+				font-size: 1em;
+				float:left;
+			}
+			fieldset.form ol li table {
+				width:218px;
+				float:left;
+			}
+				fieldset.form ol li table tr { }
+					fieldset.form ol li table tr td {
+						margin:0;
+						padding:0 0 0 5px;
+						width:100%;
+						vertical-align:top;
+					}
+						fieldset.form ol li table tr td input {
+							width:auto;
+							float:left;
+							margin-bottom:9px;
+						}
+						fieldset.form ol li table tr td label {
+							width:auto;
+							margin: -2px 0 0 .5em;
+						}
+	fieldset.form span.label {
+		float: left;
+		width: 235px;
+		text-align: left;
+		padding: 0 1.5em 0 0;
+		margin: 0 0 0 2px;
+		color:#303030;
+	}
+	fieldset.form span.required {
+		font-weight: bold;
+	}
+	fieldset.form.checkbox {
+	    margin-right:10px;
+	}
+	fieldset.form ul.radiochecklist {
+		margin: .2em 10px .2em 0 !important;
+		padding: 0;
+		list-style: none;
+		float: left;
+		width: auto;
+	}
+		fieldset.form ul.radiochecklist li {
+			margin: 0 0 0.5em 0;
+			padding: 0 !important;
+			background: none !important;
+			float: left;
+			width: 100%;
+		}
+			fieldset.form ul.radiochecklist li label {
+				padding: 0 0 0 0.5em;
+				font-weight: normal;
+				width: auto;
+				float: left;
+			}
+			fieldset.form ul.radiochecklist li input {
+				margin: 2px 0 0 0;
+				float: left;
+				width: auto;
+			}
+		fieldset.form ol li.button-zone {
+			padding-top: 1.2em;
+			margin-top: -1.0em;
+			width: 572px;
+		}
+		fieldset.form ol li.entry-zone {
+			padding-top: 1.2em;
+			margin-top: 0.2em;
+			width: 572px;
+		}
+		fieldset.form ol li.contest-zone {
+		
+			padding-top: 1.2em;
+			margin-top: -1.0em;
+			width: 572px;
+		}
+			fieldset.form ol li.button-zone input {
+				text-indent: -9999px;
+				background-position: 0 0;
+				height: 25px;
+				float: right;
+				padding: 0;
+				position: relative;
+				left: -30.9em;
+			}
+			fieldset.form ol li.entry-zone input {
+				text-indent: -9999px;
+				background-position: 0 0;
+				height: 25px;
+				float: right;
+				padding: 0;
+				position: relative;
+				left: -34.9em;
+			}
+			fieldset.form ol li.contest-zone input {
+				text-indent: -9999px;
+				background-position: 0 0;
+				height: 25px;
+				float: right;
+				padding: 0;
+				position: relative;
+				left: -47.9em;
+			}
+			fieldset.form ol li.button-zone input:hover {
+				background-position: 0 -25px;
+			}
+			
+			
+			
+			
+			
+fieldset.submit {
+	padding-top: 3.2em;
+	width: 460px;
+	color: #000;
+	margin: 0 0 0 73px;
+}
+	fieldset.submit h3 {
+		margin-top: 0;
+	}
+	fieldset.submit ol {
+		list-style: none;
+		float: left;
+		width: 460px;
+	}
+		fieldset.submit ol li {
+			margin: 0 0 1.6em;
+			float: left;
+			clear: left;
+			width: 460px;
+		}
+			fieldset.submit ol li label {
+				float: left;
+				width: 140px;
+				text-align: left;
+				padding: 0 1.5em 0 0;
+			}
+			fieldset.submit ol li.required label {
+				font-weight: bold;
+				font-size:14px;
+			}
+			fieldset.submit ol li.required-text-area label {
+				font-weight: bold;
+				height: 100px;
+			}
+			fieldset.submit ol li.required-text-area span.EditingFormErrorLabel {
+				float:left;
+				margin-bottom: 10px;
+				width: 346px;
+			}
+			fieldset.submit ol li.required-date-select label {
+				font-weight: bold;
+				height: 50px;
+			}
+			fieldset.submit ol li.required-date-select span.EditingFormErrorLabel {
+				float:left;
+				margin-top: 10px;
+				width: 250px;
+			}
+			fieldset.submit ol li input {
+				width: 460px;
+			}
+			/*#training {
+			    margin-right:3px;
+			}
+			#training-text {
+			    position:relative;
+			    left:184px;
+			    top:-18px;
+			    width:205px;
+			}*/
+			fieldset.submit ol li input.UploaderInputFile {
+			                width:210px;
+			}
+			fieldset.submit ol li input.CalendarIcon {
+				width: auto;
+				margin:.75em 1em 0 0;
+			}
+			fieldset.submit ol li a.CalendarAction {		            
+				margin:.5em 1em 0 0;	
+				float:left;
+			}
+			fieldset.submit ol li input.small {
+				width: 76px;
+			}
+			fieldset.submit ol li select {
+				width: 154px;
+			}
+			fieldset.submit ol li textarea {
+				width: 460px;
+				height:100px;
+			}
+			fieldset.submit ol li input,
+			fieldset.submit ol li select,
+			fieldset.submit ol li textarea {
+				font-size: 1em;
+				float:left;
+			}
+			fieldset.submit ol li table {
+				width:218px;
+				float:left;
+			}
+				fieldset.submit ol li table tr { }
+					fieldset.submit ol li table tr td {
+						margin:0;
+						padding:0 0 0 5px;
+						width:100%;
+						vertical-align:top;
+					}
+						fieldset.submit ol li table tr td input {
+							width:auto;
+							float:left;
+							margin-bottom:9px;
+						}
+						fieldset.submit ol li table tr td label {
+							width:auto;
+							margin: -2px 0 0 .5em;
+						}
+	fieldset.submit span.label {
+		float: left;
+		width: 235px;
+		text-align: left;
+		padding: 0 1.5em 0 0;
+		margin: 0 0 0 2px;
+		color:#303030;
+	}
+	fieldset.submit span.required {
+		font-weight: bold;
+	}
+	fieldset.submit.checkbox {
+	    margin-right:10px;
+	}
+	fieldset.submit ul.radiochecklist {
+		margin: .2em 10px .2em 0 !important;
+		padding: 0;
+		list-style: none;
+		float: left;
+		width: auto;
+	}
+		fieldset.submit ul.radiochecklist li {
+			margin: 0 0 0.5em 0;
+			padding: 0 !important;
+			background: none !important;
+			float: left;
+			width: 100%;
+		}
+			fieldset.submit ul.radiochecklist li label {
+				padding: 0 0 0 0.5em;
+				font-weight: normal;
+				width: auto;
+				float: left;
+			}
+			fieldset.submit ul.radiochecklist li input {
+				margin: 2px 0 0 0;
+				float: left;
+				width: auto;
+			}
+		fieldset.submit ol li.double-zone {
+			padding-top: 1.2em;
+			margin-top: -1.0em;
+			width: 460px;
+		}
+		fieldset.submit ol li.upload-zone {
+			padding-top: 1.2em;
+			margin-top: -2.0em;
+			width: 460px;
+		}
+			fieldset.submit ol li.double-zone input {
+				text-indent: -9999px;
+				background-position: 0 0;
+				height: 25px;
+				float: left;
+				padding: 0;
+				position: relative;
+				left: 0.6em;
+			}
+			fieldset.submit ol li.upload-zone input {
+				text-indent: -9999px;
+				background-position: 0 0;
+				height: 25px;
+				float: left;
+				padding: 0;
+				position: relative;
+				left: 0.6em;
+			}
+			fieldset.submit ol li.double-zone input:hover {
+				background-position: 0 -25px;
+			}
+
+
+/**
+ * OVERRIDE THINGS GENERATED BY CMS 
+**************************************************************************/
+ 
+span.ErrorLabel,
+span.UploaderLabel {
+    display:none;
+}
+div.Uploader {
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+div.Uploader table  {
+    margin:-.1em 0 0 0;
+    padding:0;
+}
+
+/*** END OVERRIDE THINGS GENERATED BY CMS ***/
+
+
+/***
+* POP UP CALENDAR
+* ----------------------------------------------------------------------------------- */
+
+
+body.wg-calendar-picker {
+    background-color:#D8BD87;
+    background-image:none;
+    border:none;
+    overflow:visible;
+}
+    body.wg-calendar-picker * {
+        outline:none;
+    }
+
+        body.wg-calendar-picker table#calDate {
+            width:100%;
+        }
+			body.wg-calendar-picker table.table-caption tr td {
+				background-color:#181503;
+				color:#FDB847;
+				padding:8px;
+				border:1px solid #463C37;
+				font-size:1em;
+				text-transform:uppercase;
+			}
+			body.wg-calendar-picker .table-caption tr td.next-prev {
+				padding:0;
+			}
+			body.wg-calendar-picker .table-caption tr td  a{
+				padding:8px;
+				display:block;
+				text-decoration:none;
+			}
+			body.wg-calendar-picker .table-caption tr td  a:hover {
+				background-color:#C05125;
+			}
+
+body.wg-calendar-picker table#calDate {
+	width:100%;
+}
+body.wg-calendar-picker table#calDate tr {
+	text-transform:uppercase;
+}
+body.wg-calendar-picker table#calDate tr td.day a{
+	display:block;
+}
+body.wg-calendar-picker table#calDate tr td.day a:hover {
+	text-decoration:none;
+	background-color:#C05125;
+	color:#000;
+} 
+
+body.wg-calendar-picker table select#drpMonth,
+body.wg-calendar-picker table select#drpYear  {
+	line-height:1.2em;
+	font-size:.9em;
+	margin:0 .5em;
+}
+
+body.wg-calendar-picker table select#drpMonth option,
+body.wg-calendar-picker table select#drpYear option {
+	padding:0.25em 5px 0 3px;
+}
+body.wg-calendar-picker table input#btnNA {
+	display:none;
+}
+
+body.wg-calendar-picker table input#btnOK, 
+body.wg-calendar-picker table input#btnCancel,  
+body.wg-calendar-picker table input#btnNow {
+	border:none;
+	color:#FFF;
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	text-transform:uppercase;
+	font-size:1em;
+	height:25px;
+	padding:3px 0;
+	margin:0 .5em;
+}
+
+body.wg-calendar-picker table input#btnOK:hover, 
+body.wg-calendar-picker table input#btnCancel:hover,  
+body.wg-calendar-picker table input#btnNow:hover {
+	background-position:center bottom;
+}
+
+
+/*** END POP UP CALENDAR ***/
+
+
+/**
+ * COMMON FORM WIDGETS AND PARTS
+ * These could be useful in more than one form
+**************************************************************************/
+/**
+
+/* Generic Submit Button */
+fieldset.form ol li.button-zone span.submit input {
+    background-image: url(../img/buttons/submit-btn.png);
+    width: 104px;
+    height:25px;
+}
+
+/* Contest Submit Button */
+fieldset.form ol li.contest-zone span.submit input {
+    background-image: url(../img/buttons/submit-btn.png);
+    width: 104px;
+    height:25px;
+}
+
+/* Entry Submit Button */
+fieldset.form ol li.entry-zone span.entry input {
+    background-image: url(../img/buttons/submit-entry-btn.png);
+    width: 154px;
+    height:25px;
+}
+
+/* Choose File Button */
+fieldset.submit ol li.double-zone span.choose input {
+    background-image: url(../img/buttons/choose-file-btn.gif);
+    width: 104px;
+    height:25px;
+}
+
+/* Upload File Button */
+fieldset.submit ol li.upload-zone span.upload input {
+    background-image: url(../img/buttons/upload-file-btn.gif);
+    width: 104px;
+    height:25px;
+}
+
+/* Number of guests */
+fieldset.form ol li input.number-of-guests{
+    width:100px;
+}
+
+/* Select date */
+
+fieldset.form ol li span.select-date input[type=text]{
+    width:150px;
+}
+
+/*** END COMMON FORM WIDGETS AND PARTS ***/
+
+/**
+ * SPECIFIC FORMS
+ * These are to be used in conjunction with the form variants above
+**************************************************************************/
+
+/**
+ * Contact form 
+ */
+div#contact {
+	color: #666;
+}
+	div#contact input.text {}
+/* end contact form */
+
+/**
+ * Job Application form 
+ */
+/* Apply Now Button */
+fieldset.form ol li.button-zone span.apply-now input {
+    width: 116px;
+}
+
+											 
+/*** END SPECIFIC FORMS ***/
+
+

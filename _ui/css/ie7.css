@@ -1,0 +1,170 @@
+.top-margin {  margin-top:44px !important; }
+.small-top-padding { padding-top: 4.0em !important; }
+        
+        div#navigation-primary li#home a 
+        {
+            margin: -13px 0 0 0;
+        }
+        div#navigation-primary li#contest a 
+        {
+	        margin: -26px 0 0 0;
+        }
+        div#navigation-primary li#rules a 
+        {
+            margin: -39px 0 0 388px; 
+        }
+        div#navigation-primary li#faq a 
+        {
+            margin: -52px 0 0 554px;
+        }
+        div#navigation-primary li#idea a 
+        {
+            margin: -65px 0 0 720px;
+        }
+        div#navigation-primary li#right-perimeter a 
+        {
+            margin: -78px 0 0 885px;
+        }
+        
+        div#gallery-wrapper div#gallery-two
+        div.left fieldset.submitted ol li label.para {
+            margin: -15px 0 0 0;                
+        }
+        
+        div#gallery-wrapper div.gallery-navigation-one {
+            margin: 28px 0 0 71px;
+        }
+        
+        div#gallery-wrapper div.gallery-navigation-one
+        div.left ul li.paging-one a {
+            margin: -14px 0 0 28px;
+        }
+        
+        div#gallery-wrapper div.gallery-navigation-one
+        div.left ul li.paging-two a {
+            margin: -27px 0 0 80px;
+        }
+        
+        div#gallery-wrapper div.gallery-navigation-one
+        div.left ul li.paging-three a {
+            margin: -40px 0 0 103px;
+        }
+        
+        div#gallery-wrapper div.gallery-navigation-one
+        div.left ul li.paging-four a {
+            margin:-53px 0 0 126px;
+        }
+        
+        div#gallery-wrapper div.gallery-navigation-one
+        div.left ul li.paging-five a {
+            margin:-66px 0 0 149px;
+        }
+        
+        div#gallery-wrapper div.gallery-navigation-one
+        div.left ul li.next a {
+            margin:-74px 0 0 173px;
+        }
+        
+        div#gallery-wrapper div.gallery-three {
+            margin: 0px 0 0 71px;
+        }
+        
+        div#contest-over-wrapper div.contest-right {
+            margin: -280px 48px 0 0;    
+        }
+        
+        div#submit-background div#page-content-container 
+        div#left-side-forms fieldset#thumbnail-section {
+            padding-top: 19.0em;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination {
+            width:340px;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.char-title {
+            width:330px;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.video-title-one {
+            width:330px;
+        }
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.list {
+            width:330px;
+            margin-left:27px;
+            list-style-type: disc !important;
+        }
+                
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.list-two {
+            width:330px;
+            list-style-type: disc !important;
+            margin-top:4px;
+            margin-left:27px;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.list-three {
+            width:330px;
+            list-style-type: disc !important;
+            margin-top:4px;
+            margin-left:27px;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.video-title-three {
+            width:330px;
+            margin-top:10px;
+            margin-left:27px;
+        }
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.list-four {
+            width:330px;
+            margin-top:4px;
+            margin-left:27px;
+            list-style-type:disc !important;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.list-five {
+            width:330px;
+            margin-top:4px;
+            margin-left:27px;
+            list-style-type:disc !important;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.list-six {
+            width:330px;
+            margin-top:4px;
+            margin-left:27px;
+            list-style-type:disc !important;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.para {
+            width:330px;
+            margin-top:10px;
+            margin-left:27px;
+        }
+        
+        div#submit-background div#page-content-container 
+        div#right-side-explaination ol li.thumb-title {
+            margin-top:38px;
+            margin-left:27px;
+        }
+        
+        div#contest-over-wrapper div#contest-right {
+            display:inline;
+            float:right;
+            margin: -270px 48px 0 0;
+            width:180px;
+        }
+        
+        div#row-two div#how-it-works ul#get {
+            margin: 39px 0 0 37px;
+        }

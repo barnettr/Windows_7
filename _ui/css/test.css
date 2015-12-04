@@ -1,0 +1,1001 @@
+﻿/* @override 
+	http://localhost:3000/stylesheets/screen.css
+	http://pc-jonathann/stylesheets/screen.css
+	http://localhost/stylesheets/screen.css
+*/
+
+.ui-tabs .ui-tabs-hide {
+     display: none;
+}
+
+/* @group structure */
+
+body {
+	background: #eae9e6;
+	color: #727175;
+	font: 12px "Arial, Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#custom-doc {
+	width: 920px;
+	margin: auto;
+
+	position: relative;
+}
+
+div#hd{
+
+}
+
+div#bd {
+	overflow: hidden;
+	padding-bottom: 154px;
+	background: transparent url(../images/div-bd-footer.png) no-repeat left bottom;
+}
+
+div#faux-column-bg {
+	overflow: hidden;
+	background: #fff url(../images/div-bd-tile.gif) repeat-y left top;
+}
+
+div#bd .primary {
+	padding: 0 30px;
+}
+
+
+/* @end */
+
+/* @group sitewide styles and primitives */
+
+hr {
+	border-top: 0px;
+	border-left: 0px;
+	border-color: 0px;
+	border-bottom: 1px solid #d5d5d5;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+}
+
+.float-left {
+	float: left;
+}
+
+p.footnote {
+	font-style: italic;
+}
+
+/* Since unordered lists have their styles removed in reset.css, 
+   this class can be used to regain the expected spacing */
+
+.formatted-list {
+	list-style-position: outside;
+	margin-left: 18px;
+}
+.formatted-list li {
+	margin-bottom: 1em;
+}
+
+.formatted-list li ul{
+	margin-left: 1em;
+}
+   
+ul.formatted-list {
+	list-style-type: disc;
+	margin-bottom: 2em;
+}
+
+ul.formatted-list ul {
+	list-style-type: circle;
+	margin-top: 10px;
+}
+
+ol.formatted-list {
+	list-style-type: decimal;
+}
+
+/* @end */
+
+/* @group silverlight container */
+
+div#silverlight-container {
+	padding-bottom: 25px;
+}
+
+
+
+/* @end */
+
+/* @group detail page */
+
+/* @group split container */
+
+.split-container {
+	padding-top: 10px;
+	margin-bottom: 35px;	
+	overflow: hidden;	
+}
+
+.split-container div.clearer{
+	height: 30px;	
+}
+
+.split-container .column{
+	float: left;
+	width: 265px;
+	margin-right: 35px;
+}
+
+.split-container .column p{
+	font-size: 11px;
+	line-height: 14px;
+}
+
+.split-container img{
+	float: left;
+	padding-right: 20px;
+}
+
+.split-container h3{
+	font-size: 14px;
+	clear: both;
+	padding-top: 20px;
+}
+/* @end */
+
+/* @group header container */
+
+div#header-container{
+	width: 920px;
+	height: 153px;
+	background-image: url(../images/header-bg-sprite.jpg);
+	background-color: transparent;
+	z-index: -500;
+}
+
+.red	{ background-position: 0 0; }
+.green	{ background-position: 0 330px; }
+.blue	{ background-position: 0 504px; }
+.yellow	{ background-position: 0 155px; }
+
+
+/* @end */
+
+/* @group mini header */
+
+h2.miniheader {
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	background: url(../images/mini-header-sprite.gif) no-repeat;
+	height: 30px;
+	padding: 10px 0 0 10px;
+	margin-bottom: .5em;
+}
+
+/* @end */
+
+div#header-container div{
+	padding-top: 70px;
+	padding-left: 35px;	
+}
+div#header-container h1{
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0 0 .25em;
+}
+
+div#header-container h2{
+	color: #fff;
+	font-size: 1.7em;
+}
+
+/* @end */
+
+/* @group head */
+
+/* @group primary nav */
+
+/* @group columns */
+
+div#hd .four-column {
+	width: 800px;
+	background: #fff;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+div#hd .four-column li.column{
+	float: left;
+	display: block;
+	width: 180px;
+	z-index: 1000;
+	border-right: 1px solid #b5b5b5;
+	padding-left: 20px;
+}
+
+div#hd .four-column li.first{
+	padding-left: 0px;
+}
+
+
+div#hd .four-column li.last{
+	border-right: 0px;
+	padding-right: 0px;
+}
+
+/* @end */
+
+
+/* @group hover */
+
+
+ul#primary-nav li#home a.hover,
+ul#primary-nav li#home a:hover {
+	background-position: -1px -42px !important;
+}
+
+ul#primary-nav li#commitments a.hover,
+ul#primary-nav li#commitments a:hover {
+	background-position: -79px -92px !important;
+}
+
+ul#primary-nav li#focus a:hover,
+ul#primary-nav li#focus a.hover {
+	width: 122px;
+	margin-left: -1px;
+	margin-right: -1px;
+	background-position: -249px -150px !important;
+}
+
+ul#primary-nav li#actions a.hover,
+ul#primary-nav li#actions a:hover {
+	width: 128px;
+	margin-left: -1px;
+	background-position: -368px -214px !important;
+}
+
+ul#primary-nav li#partnerships a.hover,
+ul#primary-nav li#partnerships a:hover {
+	background-position: -495px -42px !important;
+}
+
+ul#primary-nav li#about a.hover,
+ul#primary-nav li#about a:hover {
+	background-position: -616px -42px !important;
+}
+
+/* @end */
+
+/* @end */
+
+ul#primary-nav {
+	position: relative;
+	display: block;
+}
+
+ul#primary-nav li.navItem a.navLink {
+	float: left;
+	text-indent: -99999999px;
+}
+
+span.dropdown-seperators{
+	width: 1px;
+	height: 21px;
+	background: url(../images/dropdown-seperators.gif) no-repeat left top;
+	position: absolute;
+	top: 102px;
+	z-index: 1000;
+}
+
+span#ds-1{ left: 252px; }
+span#ds-2{ left: 372px; }
+span#ds-3{ left: 499px; }
+
+ul#primary-nav li.navItem a.navLink {
+	background: transparent url(../images/dropdown-sprite.gif) no-repeat;
+	height: 45px;
+	display: block;
+	color: #222;
+	z-index: 500;
+}
+
+
+ul#primary-nav li.last a.navLink {
+	border-right: none;
+}
+
+.subnav {
+	position: absolute;
+	top:46px;
+	left: 0px;
+	z-index: 5000;
+	overflow: hidden;
+	border: 1px solid #b5b5b5;
+	display: none;
+	padding-bottom: 35px;
+	z-index: 10000;
+}
+
+/* @group sprite */
+
+/* @group link */
+
+ul#primary-nav li#home a.navLink {
+	width: 78px;
+	background-position: 0 0;
+}
+
+ul#primary-nav li#commitments a.navLink {
+	width: 175px;
+	background-position: -78px 0;
+}
+
+
+ul#primary-nav li#focus a.navLink {
+	width: 120px;
+	background-position: -250px 0;
+}
+
+ul#primary-nav li#actions a.navLink {
+	width: 127px;
+	background-position: -372px 0;
+}
+
+ul#primary-nav li#partnerships a.navLink {
+	width: 121px;
+	background-position: -495px 0;
+}
+
+ul#primary-nav li#about a.navLink {
+	width: 70px;
+	background-position: -616px 0;
+}
+
+/* @end */
+
+
+
+/* @end */
+
+/* @group utility nav */
+
+/* @group nav list */
+
+div#utility-nav ul.nav li.navTrigger {
+	padding-right: 5px;
+	font-size: 11px;
+}
+
+div#utility-nav ul.nav li#current-country {
+
+}
+
+div#utility-nav ul.nav li#change-country {
+	border-right: 1px solid #d0d0d0;
+}
+
+div#utility-nav ul.nav li#all-microsoft-sites {
+	padding-left: 5px;
+	padding-right: 0px;
+}
+
+/* @end */
+
+div#utility-nav {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+}
+
+div#utility-nav img {
+	margin-top: 8px;
+}
+
+div#utility-nav ul.nav {
+	text-align: right;
+}
+
+/* @end */
+
+div#search-and-logo {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+div#clear-utility{
+	height: 5px;
+}
+
+div#clear-primary-nav{
+	height: 1px;
+}
+
+/* @end */
+
+/* @group footer */
+
+div#ft {
+	text-align: right;
+	padding-bottom: 3em;
+}
+
+div#ft ul.nav li a {
+	vertical-align: top;
+	font-weight: normal;
+}
+
+div#ft ul.nav li {
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 1px solid #acacab;
+	vertical-align: top;
+}
+
+div#ft ul.nav li#copyright, 
+div#ft ul.nav li.last,
+div#ft ul.nav li.logo {
+	border-right: none;
+}
+
+/* @end */
+
+/* @group columns */
+
+/* @group primary */
+
+p.intro,
+div.intro {
+	font-size: 14px;
+	color: #000;
+	line-height: 19px;
+	margin-bottom: 35px;
+}
+
+/* @end */
+
+
+
+/* @group secondary styles */
+
+div.secondary img{
+	margin-bottom: 10px;
+}
+
+/* @end */
+/* @group content */
+
+/* @group two column */
+
+
+div.two-column .column {
+	width: 287px;
+	float: left;
+	padding-right: 20px;
+}
+
+div.two-column .last {
+	padding-right: 0px;
+}
+
+/* @end */
+
+/* @group three column */
+
+div.three-column .column {
+	width: 180px;
+	float: left;
+	padding-right: 30px;
+}
+
+div.three-column div.last {
+	padding-right: 0px;
+}
+
+/* @end */
+
+/* @end */
+
+div.primary {
+	width: 605px;
+	float: left;
+}
+
+div.secondary {
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	color: #727175;
+	font-size: 11px;
+}
+
+/* @end */
+
+/* @group ros text tags */
+
+/* @group secondary column */
+
+div.secondary img.sidebar{
+	margin-bottom: 10px;
+}
+
+/* @end */
+
+h1 {
+	font-size: 1.3em;
+	color: #000;
+	margin-bottom: 1em;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+
+
+h2 {
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: .5em;
+	margin-bottom: 14px;
+}
+
+h3 {
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 6px;
+}
+
+
+p {
+	line-height: 17px;
+	margin-bottom: 1em;
+}
+
+p.small-details, div.secondary p{
+	line-height: 14px;
+	font-size: 11px;
+}
+
+
+
+/* @end */
+
+/* @group panels */
+
+div.panel{
+	margin-bottom: 40px;	
+}
+
+div.rounded-panel{
+	border: 1px solid #d5d5d5;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px;
+	
+	padding: 10px 15px 0;
+	margin: 25px 0;
+}
+
+/* @end */
+
+
+
+/* @group arrows */
+
+.arrow {
+	background-color: transparent;
+	background-image: url(../images/arrows-sprite.png);
+	background-repeat: no-repeat;
+}
+
+a.right {
+	padding-right: 22px;
+	background-position: right 1px;
+}
+
+a.diagonal {
+	padding-right: 25px !important;
+	background-position: right -46px;
+}
+
+	a.down {
+	padding-right: 25px !important;
+	background-position: right -22px;
+}
+
+a.up {
+	padding-right: 25px !important;
+	background-position: right -69px;
+}
+/* @end */
+
+/* @group lists */
+
+/* @group breadcrumbs */
+
+/* @group links */
+
+div#breadcrumbs li a {
+	font-weight: bold;	
+	color: #cc3300;
+	text-decoration: none;
+}
+
+div#breadcrumbs li a:visited {
+	font-weight: bold;	
+	color: #cc3300;
+	text-decoration: none;
+}
+
+div#breadcrumbs li a:hover {
+	font-weight: bold;	
+	color: #cc3300;
+	text-decoration: underline;
+}
+
+/* @end */
+
+div#breadcrumbs ul {
+	margin: 15px 30px 35px;
+}
+
+div#breadcrumbs ul li {
+	color: #969696;
+	display: inline;
+	padding-right: 3px;
+	font-size: 11px;
+}
+
+div#breadcrumbs ul li.last {
+	font-weight: bold;
+	color: #000;
+}
+
+/* @end */
+
+/* @group social media */
+
+/* @end */
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul.nav li {
+	display: inline;
+}
+
+ul.float-left{
+	margin-right: 10px;
+}
+
+/* @end */
+
+
+
+/* @group home */
+
+/* @group primary */
+
+/* @group two column */
+
+div#top-story a {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+div#top-story p {
+	margin-top: .5em;
+}
+
+div#story-container h3 {
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+div#story-container .column li {
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	clear: both;
+}
+
+div#story-container .column .with-image img {
+	float: left;
+}
+
+div#story-container .column .with-image .link {
+	float: left;
+	display: block;
+	width: 200px;
+	padding-right: 15px;
+	margin-left: 8px;
+	background: url(../images/arrow-diagonal.png) no-repeat right bottom
+}
+
+/* @end */
+
+/* @group three column */
+
+
+div#commitments-focus-actions div.clearer{
+		height: 1px;
+}
+
+div#commitments-focus-actions li {
+	text-align: left;
+	padding-bottom: 3px;
+}
+
+div#commitments-focus-actions h2 {
+	font-size: 14px;
+	font-weight: bold;
+	height: 35px;
+	padding-top: 13px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	color: #fff;
+	background: url(../images/home/three-column-sprite.jpg) no-repeat;
+}
+
+div#commitments-focus-actions #commitments h2 {
+	background-position: 0 0;
+}
+
+div#commitments-focus-actions #focus h2 {
+	background-position: -214px 0;
+}
+
+div#commitments-focus-actions #actions h2 {
+	background-position: -428px 0;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group secondary */
+
+div#todays-story-container a.hd{
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 2px;
+}
+
+div#todays-story-container h3{
+	font-size: 11px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+div#local-impact {
+	margin-bottom: 45px;
+}
+
+/* Trying to avoid bouncy elements while #todays-story is being filled via ajax */
+div#local-impact .filler
+{
+	position:relative;
+	height: 100px;
+}
+
+div#corporate-citizenship-report {
+	margin-bottom: 45px;
+}
+
+div#our-partners #view-all {
+	float: left;
+}
+
+div#our-partners ul {
+	float: right;
+}
+
+/* @end */
+
+/* @end */
+
+hr.home{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+/* @group pages */
+
+/* @group commitments */
+
+
+
+/* @end */
+
+ul.faux-two-column li {
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+ul.faux-two-column li img {
+	float: left;
+	padding-right: 20px;
+}
+
+ul.faux-two-column div {
+	width: 320px;
+	float: left;
+}
+
+ul li h3 {
+	margin-bottom: .5em;
+}
+
+/* @end */
+
+
+/* @group callouts */
+
+div.vertical-callout {
+	background: url(../images/vertical-callout-top.gif) no-repeat left top;
+	background-color: #cc3400;
+	min-height: 215px;
+	margin-bottom: 40px;
+	position: relative;
+	color: #fff;	
+}
+
+div.vertical-callout p {
+	display: block;
+	width: 160px;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	padding: 45px 0 0;
+}
+
+div.vertical-callout cite {
+	display: block;
+	background: transparent url(../images/vertical-callout-bottom.gif) no-repeat left bottom;
+
+	position: relative;
+	padding: 35px 20px 20px;
+	margin-bottom: 2em;
+}
+
+/* @end */
+
+/* @group tabs */
+
+div.tabs {
+	position: relative;
+}
+
+div.tabs .clearer {
+	height: 1px;
+}
+
+div.tabs hr {
+	height: 1px;
+	margin: -2px 0px 0px;
+}
+
+div.tabs ul {
+	overflow: hidden;
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 30px
+}
+
+div.tabs .ui-tabs-panel{
+	margin-bottom: 40px;	
+	overflow: hidden;
+}
+
+div.tabs ul li {
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+div.tabs ul li a{
+	font-size: 12px;
+	font-weight: normal;
+	color: #727175;
+	padding: 15px;
+	display: block;	
+
+	border-right: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;
+	border-top: 1px solid #d5d5d5;
+
+	-webkit-border-top-left-radius: 8px;	
+	-moz-border-radius-topleft: 8px;		
+}
+
+div.tabs ul li.ui-state-hover a{
+	color: #cd3400;
+}
+
+
+div.tabs ul li.ui-state-active a{
+	background: #cd3400;
+	color: #fff;
+	font-weight: bold;
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;	
+}
+
+/* @end */
+
+
+
+
+/* @group share links */
+
+ul#social-media {
+	position: absolute;
+	left: 30px;
+	bottom: 40px;
+}
+
+/* @end */
+
+
+
+
+/* @group links */
+
+/* @group dropdown nav */
+
+li.colummn a:link {
+	font-size: 11px;
+	font-weight: bold;
+	color: #cc3300;
+	text-decoration: none;
+}
+
+li.colummn a:visited {
+	font-size: 11px;
+	font-weight: bold;
+	color: #cc3300;
+	text-decoration: none;
+}
+
+li.colummn a:hover {
+	color: #cc3300;
+	text-decoration: underline;
+}
+
+
+
+/* @end */
+
+/* @group ros */
+
+a:link {
+	font-weight: bold;
+	color: #cc3300;
+	text-decoration: none;
+}
+
+a:visited {
+	font-weight: bold;
+	color: #cc3300;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a92a00;
+	text-decoration: none;
+}
+
+/* @end */
+
+a.back-to-top{
+	float: right;
+	clear: right;
+}
+
+/* @end */
+
+
+
+

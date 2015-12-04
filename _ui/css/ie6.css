@@ -1,0 +1,404 @@
+
+/*
+.className {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='FILEPATH GOES HERE - RELATIVE TO THE HTML DOC');			
+}
+
+*/
+
+
+.six-right { margin-right:-80px !important; }
+
+/* header navigation */
+
+div.header {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/header.png');
+}
+
+
+div#registration li#register a {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../_ui/img/navigation/register.png');
+}
+
+div#registration li#register a.on {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../_ui/img/navigation/register-on.png');
+    cursor:pointer;
+}
+
+div#registration li#login a {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../_ui/img/navigation/login.png');
+    cursor:pointer;
+}
+
+div#registration li#login a.on {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../_ui/img/navigation/login-on.png');
+}
+
+div#registration li#myaccount a {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../_ui/img/navigation/myaccount.png');
+    cursor:pointer;
+}
+
+div.green-divider
+{
+    position:absolute;
+    margin: -55px 0 0 0;
+}
+
+div.content-background {
+    position:relative;
+    margin: -28px 0 0 0;
+}
+
+/* end header navigation */
+
+
+/* home page */
+
+div.row-one-holder {
+    margin:0 45px 0 45px;
+    height:65px;
+}
+
+div.row-one {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/change-the-world.png');
+    width:671px;
+    padding-right:50px;
+    margin-right:50px;
+}
+
+div#row-two div#how-it-works ul#get {
+    margin: 39px 0 0 37px;
+}
+
+div#row-two div#how-it-works ul#get 
+li#get-started {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/get-started.png');
+}
+
+div#row-three ul#row-container 
+li#cell-one {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/blue-line.png');
+    width: 257px;
+    height: 51px;
+}
+
+div#row-three ul#row-container 
+li#cell-two {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/green-line.png');
+}
+
+div#row-three ul#row-container 
+li#cell-three {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/orange-line.png');
+}
+
+div#row-three ul#row-container 
+li#cell-one div.body-holder {
+    margin-top:58px; 
+    margin-left:14px;
+}
+div#row-three ul#row-container 
+li#cell-two div.body-holder {
+    margin-top:58px; 
+    margin-left:14px;
+}
+div#row-three ul#row-container 
+li#cell-htree div.body-holder {
+    margin-top:58px; 
+    margin-left:14px;
+}
+
+/* end home page */
+
+/* rules page */
+
+div#rules-wrapper div#rules-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/rules-title.png');
+}
+
+/*div#rules-wrapper div.rules-right 
+ul li#nonprofits {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/gray-btn.png');
+}*/
+
+
+/* end rules page */
+
+/* contest and prizes page */
+
+div#contest-wrapper div#contest-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/contest-title.png');
+}
+
+div#contest-wrapper div.contest-right {
+    margin: -29px 0 0 51px;
+}
+
+/*div#contest-wrapper div.contest-right 
+ul li#nonprofits {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/gray-btn.png');
+}*/
+
+div.contest-background {
+    position:relative;
+    top:-28px;
+}
+div.faq-background {
+    position:relative;
+    top:-28px;
+}
+div.rules-background {
+    position:relative;
+    top:-28px;
+}
+
+div.contest-footer {
+    width: 936px;
+	text-align: left;
+	margin-top: -15px !important;
+	position:relative;
+}
+
+
+/* end contest and prizes page */ 
+
+
+/* faq page */
+
+div#faq-wrapper div#faq-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/faq-title.png');
+}
+
+/*div#faq-wrapper div.faq-right 
+ul li#nonprofits {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/gray-btn.png');
+}*/
+
+div.faq-footer {
+    width: 936px;
+	text-align: left;
+	margin-top: -15px !important;
+	position:relative;
+}
+
+
+/* end faq page */
+
+/* idea gallery  */
+
+div.gallery-background {
+    position:relative;
+    top:-28px;
+}
+
+div#gallery-wrapper div.gallery-navigation-one {
+    width:863px;
+    margin-top: 0px !important; 
+    margin-left:71px;
+    margin-bottom:0px;
+    width:20px;
+}
+
+div#gallery-wrapper div.gallery-navigation-one
+div.left {
+    margin-top:18px;
+}
+
+.six-margin {  margin-top: 25px !important; }
+.topsix-margin { margin-top:8px !important; }
+
+div#gallery-wrapper div.gallery-navigation-one div.margin {
+    margin:-18px 0 0 300px;
+    width:190px;
+}
+
+div#gallery-wrapper div.gallery-four {
+    margin-top: 45px;
+}
+
+div#gallery-wrapper div#gallery-one div#gallery-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/gallery-title.png');
+}
+
+/*div#gallery-wrapper div#gallery-one div.right ul li#nonprofits {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/gray-btn.png');
+    margin-right: 33px;
+}*/
+
+/*div#gallery-wrapper div#gallery-one div.left ul li#submit-your-entry {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/submit-entry-btn.png');
+    margin:44px 0 0 40px;
+    cursor:pointer;
+}*/
+
+div.idea-footer {
+    width: 936px;
+	text-align: left;
+	margin-top: -90px !important;
+	position:relative;
+}
+
+
+/* end idea gallery  */
+
+/* register  */
+
+div#registration-background {
+    position:relative;
+    top:-28px;
+}
+
+div#registration-background div#register-row-one 
+div#register-left-cell div#register-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/register-title.png');
+}
+
+.height { height:30px; }
+
+div#registration-background div#register-row-one 
+        div#register-right-cell {
+            display:inline;
+            float:right;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:  12px;
+            font-weight:normal;
+            color: #333;
+            margin: 20px 40px 0 0;
+            width: 315px;
+        }
+        
+div.register-footer {
+    width: 936px;
+	text-align: left;
+	margin-top: -15px !important;
+	position:relative;
+}
+
+/* end register  */
+
+
+/* login page  */
+
+
+div#log-in-wrapper div#log-in-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/log-in-title.png');
+}
+
+/* end login page */
+
+
+/* submit page  */
+
+div#submit-background {
+    position:relative;
+    top:-28px;
+}
+
+div#submit-background div#page-content-container div#left-side-forms div ul li.submit-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/submit-your-entry-title.png');
+}
+
+div#submit-background div#page-content-container 
+div#right-side-explaination {
+    width:300px;
+    display:inline;
+    float:right;
+    margin-top: -813px;
+    padding-right:20px;
+}
+
+/*div#submit-background div#page-content-container 
+div#right-side-explaination ul li#nonprofits {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/gray-btn.png');
+}*/
+
+div.submit-footer {
+    width: 936px;
+	text-align: left;
+	margin: -15px 0 0 0;
+	position:relative;
+}
+
+.top-minus { margin-top:8px !important; }
+
+        div#submit-background div#page-content-container 
+        div#right-side-explaination {
+         
+        }
+
+        
+        
+
+/* end submit  */
+
+
+/* contest over page  */
+
+div#contest-over-wrapper div#contest-over-title {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/contest-over-title.png');
+}
+
+div#contest-over-wrapper div#contest-right {
+    display:inline;
+    float:right;
+    margin: -270px 48px 0 0;
+    width:180px;
+}
+
+/*div#contest-over-wrapper div#contest-right ul li#nonprofits {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img/buttons/gray-btn.png');
+}*/
+
+div#contest-over-wrapper div#contest-right 
+ul li#nonprofits div.find div a {
+    cursor:pointer;
+}
+
+/* end contest over page */
+
+
+/* footer  */
+
+div#footer {
+    width: 936px;
+    text-align: left;
+	margin: 10px 0 0 0;
+	position:relative;
+}
+
+div#footer_text ul li#ms {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_ui/img//black-ms-logo.png');
+}
+    
+
+    
+/* end footer  */
